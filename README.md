@@ -1,1 +1,2 @@
-# Proj4
+The code is a notebook file made with google Colab (I have not tested it with other services, but it should work on Jupyter)
+It simulates a particle decay with a certain sample size of particles, kept small for simplicity, then uses an algorithm to determine how many particles remain after allowing time to decay. Using these remaining particle numbers, a likelihood is maximized based on the half life. You can change the number of samples per experiment and the number of experiments, as well as the number of particles in a sample. Running it in google colab allows to do analysis without having to run the sims again.
